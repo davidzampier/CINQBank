@@ -17,6 +17,7 @@
 		A74D85812407427A0009C8DF /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D85802407427A0009C8DF /* TransferViewController.swift */; };
 		A74D858324074F500009C8DF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D858224074F500009C8DF /* SearchViewController.swift */; };
 		A7EA9ED924075419001BEAD7 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EA9ED824075419001BEAD7 /* Helpers.swift */; };
+		A7EA9EDB240755A5001BEAD7 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EA9EDA240755A5001BEAD7 /* DataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A74D85802407427A0009C8DF /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
 		A74D858224074F500009C8DF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A7EA9ED824075419001BEAD7 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		A7EA9EDA240755A5001BEAD7 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				A74D856A24073A330009C8DF /* AppDelegate.swift */,
+				A7EA9EDA240755A5001BEAD7 /* DataProvider.swift */,
 				A74D856C24073A330009C8DF /* SceneDelegate.swift */,
 				A74D856E24073A330009C8DF /* CreateAccountViewController.swift */,
 				A74D858224074F500009C8DF /* SearchViewController.swift */,
@@ -153,6 +156,7 @@
 				A74D858324074F500009C8DF /* SearchViewController.swift in Sources */,
 				A7EA9ED924075419001BEAD7 /* Helpers.swift in Sources */,
 				A74D857124073A330009C8DF /* DepositViewController.swift in Sources */,
+				A7EA9EDB240755A5001BEAD7 /* DataProvider.swift in Sources */,
 				A74D85812407427A0009C8DF /* TransferViewController.swift in Sources */,
 				A74D856F24073A330009C8DF /* CreateAccountViewController.swift in Sources */,
 				A74D856B24073A330009C8DF /* AppDelegate.swift in Sources */,
