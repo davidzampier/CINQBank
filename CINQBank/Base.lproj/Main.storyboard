@@ -50,6 +50,9 @@
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="didTapCreateButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="8O4-Pp-TQK"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -68,6 +71,9 @@
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="nameField" destination="fzI-vp-WEv" id="d15-OH-1Jc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -116,6 +122,9 @@
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="didTapSearchButton:" destination="OIO-MU-fWu" eventType="touchUpInside" id="cAA-jG-lwC"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -135,6 +144,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="search" id="p3E-kJ-67Q"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="accountNumberField" destination="x3k-VR-96R" id="Inz-fT-kTz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ux1-no-thi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -199,6 +211,9 @@
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="didTapTransferButton:" destination="M3v-DU-Qoq" eventType="touchUpInside" id="LtU-GK-drR"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -219,6 +234,11 @@
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="F4Z-jc-e3Z"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="destinationAccountNumberField" destination="BTi-oN-ePm" id="2bm-Xi-QEm"/>
+                        <outlet property="originAccountNumberField" destination="10e-OY-SP2" id="kkf-V5-zNq"/>
+                        <outlet property="valueField" destination="L39-N0-Z1d" id="WxF-ho-Xsp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NVg-kM-g7j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -275,6 +295,9 @@
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="didTapDepositButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="OLH-4z-t2M"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -293,6 +316,10 @@
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="accountNumberField" destination="jHN-hF-ciG" id="o2f-VX-3Bc"/>
+                        <outlet property="valueField" destination="xT2-8t-pGa" id="qma-WI-iML"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>

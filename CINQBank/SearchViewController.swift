@@ -10,10 +10,13 @@ import UIKit
 
 class SearchViewController: UIViewController {
 
+    @IBOutlet weak var accountNumberField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func didTapSearchButton(_ sender: Any) {
+    }
 }
