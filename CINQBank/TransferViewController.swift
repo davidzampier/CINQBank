@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  TransferViewController.swift
 //  CINQBank
 //
 //  Created by David Zampier on 26/02/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class TransferViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,4 +17,3 @@ class FirstViewController: UIViewController {
 
 
 }
-
