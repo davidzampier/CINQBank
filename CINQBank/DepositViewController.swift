@@ -19,6 +19,7 @@ class DepositViewController: UIViewController {
     }
 
     @IBAction func didTapDepositButton(_ sender: Any) {
+        self.view.endEditing(true)
     }
 }
 

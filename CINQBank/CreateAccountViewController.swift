@@ -18,6 +18,7 @@ class CreateAccountViewController: UIViewController {
     }
 
     @IBAction func didTapCreateButton(_ sender: Any) {
+        self.view.endEditing(true)
     }
 }
 

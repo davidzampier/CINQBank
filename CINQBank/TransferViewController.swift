@@ -20,5 +20,6 @@ class TransferViewController: UIViewController {
     }
 
     @IBAction func didTapTransferButton(_ sender: Any) {
+        self.view.endEditing(true)
     }
 }

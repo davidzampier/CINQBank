@@ -18,5 +18,6 @@ class SearchViewController: UIViewController {
     }
 
     @IBAction func didTapSearchButton(_ sender: Any) {
+        self.view.endEditing(true)
     }
 }
