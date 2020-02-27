@@ -16,6 +16,7 @@
 		A74D857924073A350009C8DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74D857724073A350009C8DF /* LaunchScreen.storyboard */; };
 		A74D85812407427A0009C8DF /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D85802407427A0009C8DF /* TransferViewController.swift */; };
 		A74D858324074F500009C8DF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D858224074F500009C8DF /* SearchViewController.swift */; };
+		A7EA9ED924075419001BEAD7 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EA9ED824075419001BEAD7 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A74D857A24073A350009C8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A74D85802407427A0009C8DF /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
 		A74D858224074F500009C8DF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A7EA9ED824075419001BEAD7 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				A74D857524073A350009C8DF /* Assets.xcassets */,
 				A74D857724073A350009C8DF /* LaunchScreen.storyboard */,
 				A74D857A24073A350009C8DF /* Info.plist */,
+				A7EA9ED824075419001BEAD7 /* Helpers.swift */,
 			);
 			path = CINQBank;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A74D858324074F500009C8DF /* SearchViewController.swift in Sources */,
+				A7EA9ED924075419001BEAD7 /* Helpers.swift in Sources */,
 				A74D857124073A330009C8DF /* DepositViewController.swift in Sources */,
 				A74D85812407427A0009C8DF /* TransferViewController.swift in Sources */,
 				A74D856F24073A330009C8DF /* CreateAccountViewController.swift in Sources */,
